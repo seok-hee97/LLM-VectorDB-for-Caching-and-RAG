@@ -19,3 +19,19 @@ Milvus is a specialized database that is built for storing, indexing, and search
 ![img](fig/Milvus-arrchitecture.png)
 
 link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overview.md)
+
+
+#### Collections in Milvus
+
+- Databases in Milvus
+  - Each Milvus instance can manage mulitple databases(max: 64)
+  - Default databases is "default"
+  - A database is a container for data
+  - RBAC implemented by database
+  - Multitenancy option
+
+
+- Collections in Milvus
+  - A Milvus collection is like a table in traditional databases
+  - Has schema that defines fields for data storage
+  - 
