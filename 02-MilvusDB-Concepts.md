@@ -24,7 +24,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 #### Collections in Milvus
 
 - Databases in Milvus
-  - Each Milvus instance can manage mulitple databases(max: 64)
+  - Each Milvus instance can manage mulitple databases (max: 64)
   - Default databases is "default"
   - A database is a container for data
   - RBAC implemented by database
@@ -34,4 +34,63 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 - Collections in Milvus
   - A Milvus collection is like a table in traditional databases
   - Has schema that defines fields for data storage
-  - 
+  - Fields have datatypes, size, default values
+  - Scalar and vector fields
+  - Primary keys and auto-generated keys are available
+  - Dynamic fields allow ad hoc fields to be added
+
+- Scalar datatypes
+  - INT8
+  - INT16
+  - INT32
+  - INT64
+  - FLOAT
+  - DOUBLE
+  - VARCHAR
+  - BOOL
+  - JSON
+  - ARRAY
+  
+- Vector datatypes
+  - BINARY_VECTOR
+  - FLOAT_VECTOR
+
+#### Partitions in Milvus
+
+- Partitions in Milvus
+  - Each collection can be split up as multiple partitions
+  - Data in the same partition is stored physically together
+  - Default partition is _default
+  - Data can be inserted to and queried from partitions specially
+  - Partition keys can be used for automatic allocation
+  - Partitions help optimize storage and search operations
+
+
+#### Indexes in Milvus
+
+- Indexes in Milvus
+  - Indexes help speed up search operations
+  - Create on scalar or vector fields
+  - One index only per field
+  - Orangizes vectors based on the approximate nearest neighbor (ANN) metric type chosen
+  - Prerequisite for doiung ANN searches
+
+- Index Types
+
+![img](fig/index-types.png)
+
+
+
+#### Managing Data in Milvus
+
+- Managing Data
+  - Rows are also called entities in Milvus
+  - Bulk inserts possible and recommended
+  - Flush operation needed to index newly inserted data
+  - Upsert available based on the primary key
+  - Delete entites by primary key or Boolean expression
+
+
+#### Query and Search with Milvus
+
+
