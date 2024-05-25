@@ -12,3 +12,10 @@ Milvus is a specialized database that is built for storing, indexing, and search
   - Access with SDKs(Python, Node.js, Go, Java)
 
 #### Milvus Architecture
+
+
+- Milvus architecture(simplified)
+
+![img](fig/Milvus-arrchitecture.png)
+
+link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overview.md)
