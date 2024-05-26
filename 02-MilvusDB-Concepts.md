@@ -120,8 +120,13 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 
 
 #### Set up Milvus and exercise files
+- use docker image
+milvus-standalone-docker-compose.yml
 
-use milvus-standalone-docker-compose.yml
 
+- Anacodna virtual env
+```
+conda create -n milvus python=3.11.5
+```
 
 
