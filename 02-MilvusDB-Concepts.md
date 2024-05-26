@@ -96,4 +96,24 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 
 - Query
   - Scalar-based filtering and retrieval process (like RDBMS)
-  - 
+  - Specify output fields, limits, and offsets
+  - Restrict query to partitions
+  - Count(*) available to aggregate data
+  - Query features are limited compared to RDBMS systems
+
+
+- Filter Capabilities
+  - Comparsion operators( ==, !=, >, <, >=, <=, IN)
+  - Logical operators( &&, ||)
+  - Match operators(like)
+  - Array operators(ARRAY_CONTAINS)
+  - JSON operators(JSON_CONTAINS)
+  - Refer : https://milvus.io/docs/boolean.md
+
+- Search
+  - Search on any vector field using a search query
+  - Search query should be converted to vector (same model)
+  - Metric used should be the same as the index metric (like L2, IP)
+  - Specify limit and offset
+  - Radius can be used to filter based on similarity (distance)
+  - Returns distance to the original query in addition to results
