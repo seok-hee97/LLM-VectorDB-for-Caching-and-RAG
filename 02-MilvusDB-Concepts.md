@@ -123,10 +123,23 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 - use docker image
 milvus-standalone-docker-compose.yml
 
+Summary:    
+This docker-compose.yml file sets up the necessary environment to install and run Milvus. etcd provides a distributed key-value store, minio offers object storage, milvus-standalone runs the Milvus database, and attu provides the management interface for Milvus. All these services are interconnected and operate within the Docker network milvus.
+
+
 
 - Anacodna virtual env
 ```
 conda create -n milvus python=3.11.5
+```
+```
+conda env list
+```
+```
+conda activate milvus
+```
+```
+conda deactivate
 ```
 
 
