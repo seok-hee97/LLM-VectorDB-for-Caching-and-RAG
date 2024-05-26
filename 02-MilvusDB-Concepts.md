@@ -117,3 +117,6 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
   - Specify limit and offset
   - Radius can be used to filter based on similarity (distance)
   - Returns distance to the original query in addition to results
+
+
+#### Set up Milvus and exercise files
