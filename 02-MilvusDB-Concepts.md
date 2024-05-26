@@ -94,3 +94,6 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 #### Query and Search with Milvus
 
 
+- Query
+  - Scalar-based filtering and retrieval process (like RDBMS)
+  - 
