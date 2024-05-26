@@ -120,3 +120,8 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 
 
 #### Set up Milvus and exercise files
+
+use milvus-standalone-docker-compose.yml
+
+
+
