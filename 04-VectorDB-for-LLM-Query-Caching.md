@@ -23,3 +23,18 @@
 ![img](fig/Prompt-Caching-Workflow.png)
 
 
+
+#### Inference procsee ans caching
+
+use code-04 ipynb file
+
+
+#### Cache management
+
+- Cache Management Best Practices
+  - Track cache hit ratio to measure cache effectiveness
+  - Benchmark/test to find the right similarity threshold(radius)
+  - Limit size of cached entries
+  - Track last used timestamp (another scalar)
+  - Prune entries based on age, last used
+  - Get user feedback to measure if eaeched answers are accurate
