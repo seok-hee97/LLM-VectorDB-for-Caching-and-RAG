@@ -1,6 +1,6 @@
-# Vector DB for LLM Query Caching
+# **Vector DB for LLM Query Caching**
 
-#### LLMs and Caching
+#### **LLMs and Caching**
 
 - Shortcommings with Using LLMs
   - Large language models (LLMs) have revolutionized the use of AI
@@ -16,7 +16,7 @@
   - Prompt/response caching is becoming an essential component of generative AI applications
 
 
-#### Prompt caching workflow
+#### **Prompt caching workflow**
 
 - Prompt Caching Workflow
 
@@ -24,12 +24,12 @@
 
 
 
-#### Inference procsee ans caching
+#### **Inference procsee ans caching**
 
 use code-04 ipynb file
 
 
-#### Cache management
+#### **Cache management**
 
 - Cache Management Best Practices
   - Track cache hit ratio to measure cache effectiveness

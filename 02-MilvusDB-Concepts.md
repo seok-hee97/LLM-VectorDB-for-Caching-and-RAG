@@ -1,4 +1,6 @@
-#### Introduction to Milvus DB
+# **MilvusDB Concepts**
+
+#### **Introduction to Milvus DB**
 
 - What is Milvus
 Milvus is a specialized database that is built for storing, indexing, and searching vectors.
@@ -11,8 +13,7 @@ Milvus is a specialized database that is built for storing, indexing, and search
   - Hybrid data storge and search
   - Access with SDKs(Python, Node.js, Go, Java)
 
-#### Milvus Architecture
-
+#### **Milvus Architecture**
 
 - Milvus architecture(simplified)
 
@@ -21,7 +22,7 @@ Milvus is a specialized database that is built for storing, indexing, and search
 link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overview.md)
 
 
-#### Collections in Milvus
+#### **Collections in Milvus**
 
 - Databases in Milvus
   - Each Milvus instance can manage mulitple databases (max: 64)
@@ -55,7 +56,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
   - BINARY_VECTOR
   - FLOAT_VECTOR
 
-#### Partitions in Milvus
+#### **Partitions in Milvus**
 
 - Partitions in Milvus
   - Each collection can be split up as multiple partitions
@@ -66,7 +67,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
   - Partitions help optimize storage and search operations
 
 
-#### Indexes in Milvus
+#### **Indexes in Milvus**
 
 - Indexes in Milvus
   - Indexes help speed up search operations
@@ -81,7 +82,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
 
 
 
-#### Managing Data in Milvus
+#### **Managing Data in Milvus**
 
 - Managing Data
   - Rows are also called entities in Milvus
@@ -91,7 +92,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
   - Delete entites by primary key or Boolean expression
 
 
-#### Query and Search with Milvus
+#### **Query and Search with Milvus**
 
 
 - Query
@@ -119,7 +120,7 @@ link : [Milvus Architecture Overview](https://milvus.io/docs/architecture_overvi
   - Returns distance to the original query in addition to results
 
 
-#### Set up Milvus and exercise files
+#### **Set up Milvus and exercise files**
 - use docker image
 milvus-standalone-docker-compose.yml
 

@@ -1,6 +1,6 @@
-# Introduction to Retrieval Augmented Generation (RAG)
+# **Introduction to Retrieval Augmented Generation (RAG)**
 
-#### LLMs as a knowledge source
+#### **LLMs as a knowledge source**
 
 
 - LLM Capabilties
@@ -18,7 +18,7 @@
   -  Building custom LLMs/fine-tuning with organizational
 
 
-#### Retrieval Augmented Generation (RAG)
+#### **Retrieval Augmented Generation (RAG)**
 
 Retrieval augmented generation (RAG) is a    
 framework that combines knowledge from a   
@@ -34,7 +34,7 @@ and well-structed answers.
   - Use standard/out-of-the-box LLMs to reduce cost
 
 
-#### RAG: Knowledge curation process
+#### **RAG: Knowledge curation process**
 
 - RAG-Knowledge curation process
 
@@ -42,14 +42,14 @@ and well-structed answers.
 
 
 
-#### RAG: Question answering process
+#### **RAG: Question answering process**
 
 - Question answering process
 
 ![img](fig/Question-answering-process.png)
 
 
-#### Applications of RAG
+#### **Applications of RAG**
 
 - Popular RAG Applications
   - Interactive chatbots

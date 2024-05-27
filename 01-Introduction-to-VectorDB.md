@@ -1,4 +1,6 @@
-#### What is Vector??
+# **Introduction to VectorDB**
+
+#### **What is Vector??**
 A Vector is an object that has both magnitude(size, quantity)   
 and direction(line, angle, trend).  
 
@@ -15,7 +17,8 @@ and direction(line, angle, trend).
   - Defined position for each element
   - Storage/access different from listas and arrays
 
-#### Vectorization in NLP
+#### **Vectorization in NLP**
+
 - ML with Text Data
   - ML algo can only handle numeric data
   - Text data need to be converted to equivalent 
@@ -33,7 +36,7 @@ and direction(line, angle, trend).
     - Popular with large language model(LLM)-baased applcations
 
 
-#### Vector Similarity search
+#### **Vector Similarity search**
 - Vector Similarity
   - Each vector has a series of data points
   - A sentence can be a vector of its embeddings
@@ -52,7 +55,7 @@ and direction(line, angle, trend).
   - Retrieve top-K results ordered by similarity
 
 
-#### Vector DataBase
+#### **Vector DataBase**
 Vector databases are specialized database products    
 that are optimized for storage and querying of vector size.   
 
@@ -72,7 +75,7 @@ that are optimized for storage and querying of vector size.
 |General database support vector search|PostgreSQL, Cassandra, OpenSearch|Elasticsearch, Redis, SingleStore|
 
 
-#### VectorDB - Analysis
+#### **VectorDB - Analysis**
 
 - VectorDB - Advantages
   - Semantic search support(ANN, distance measures)
