@@ -1,7 +1,7 @@
-# Vector Databases Best Practices
+# **Vector Databases Best Practices**
 
 
-#### Choose a vector database
+#### **Choose a vector database**
 
 
 - Choosing a VectorDB for Your Use Case
@@ -15,7 +15,7 @@
 
 
 
-#### Combine vector and scalar data
+#### **Combine vector and scalar data**
 
 - Keep Scalar and Vector Data Together?
   - Specialized vector databases
@@ -27,7 +27,7 @@
 
 
 
-#### Distance Measure Considerations
+#### **Distance Measure Considerations**
 
 - Distance Measure Considerations
   - Vector search will always return hits if recodrs exist in DB
@@ -39,7 +39,7 @@
 
 
 
-#### Tune vector DB Performance
+#### **Tune vector DB Performance**
 
 - Tuning Vector Search Performance
   - Effectiveness of search depends upon the search data, embedding model, metric type, and thresholds
